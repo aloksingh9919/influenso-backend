@@ -1,6 +1,4 @@
-const Page = require("../models/Page");
-
-
+const Page = require("../models/page");
 // Get a single page by slug
 exports.getPageBySlug = async (req, res) => {
   try {
