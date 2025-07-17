@@ -1,6 +1,6 @@
-const Page = require('../models/Page');
 const ContactSubmission = require('../models/ContactSubmission');
 const InfluencerSubmission = require('../models/InfluencerSubmission');
+const Page = require('../models/Page');
 
 exports.getContactData = async (req, res) => {
   const contactSubmissions = await ContactSubmission.find();
