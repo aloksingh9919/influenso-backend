@@ -1,0 +1,53 @@
+******CONTACT FORM API********
+
+POST API - http://localhost:5000/api/forms/contact 
+
+DATA FOR POST - {
+                   "name":"alok singh",
+                   "email":"aloksingh@gmail.com",
+                   "message": "hello"
+                }
+
+
+******INFLUENCER FROM API********
+
+POST API - http://localhost:5000/api/forms/influencer
+
+DATA FOR POST - {
+                   "name":"alok singh",
+                   "email":"aloksingh@gmail.com",
+                   "socialMediaLink": "socialMediaLink"
+                }
+
+****** PAGES API ********
+
+POST API - http://localhost:5000/api/pages
+
+DATA FOR POST - {
+  "slug": "about-us",
+  "title": "About Us",
+  "content": {
+    "heading": "Who We Are",
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "We are a leading company in the field of data privacy and security."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Founded in 2015",
+          "Headquartered in New Delhi",
+          "Serving 200+ clients globally"
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "title": "About Our Company - Privacy Experts",
+    "description": "Learn more about our mission, team, and expertise in data protection.",
+    "keywords": "about us, data privacy, security experts, company profile"
+  }
+}
+
+
